@@ -148,7 +148,7 @@ footer {
 @media screen and (max-width: 375px) {
   .container {
     width: 87.2%;
-    margin: 0 6.4%;
+    margin: 6.4%;
     height: 596px;
     background: #15263f;
     border-radius: 10px;
