@@ -25,10 +25,15 @@ body {
 }
 
 h2 {
+  font-size: 22px;
   text-align: left;
   padding: 20px 0;
   color: #00fff8;
   text-transform: uppercase;
+}
+
+h2 p {
+  font-size: 18px;
 }
 
 .spacing {
@@ -40,22 +45,31 @@ h2 {
   width: 100%;
   margin-top: 9%;
   border-radius: 10px;
+  background-color: #00fff8;
 }
 
 .img-equilibrium:hover {
   transform: scale(1.01);
   transition: 0.3s;
   cursor: pointer;
-  background-image: #00fff8;
+  opacity: 0.4;
+  background-color: #00fff8;
 }
 
 .img-avatar {
   width: 30%;
   margin-top: 9%;
+  border: 1px solid #fff;
+  border-radius: 50%;
 }
 
 .name {
+  color: #fff;
+}
+
+.name:hover {
   color: #00fff8;
+  cursor: pointer;
 }
 
 .user-details {
@@ -65,6 +79,7 @@ h2 {
 
 .user-details p {
   margin-left: -25%;
+  font-size: 16px;
 }
 
 .time {
@@ -74,6 +89,22 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
+}
+
+.eth {
+  margin-left: -30%;
+}
+
+.clock {
+  margin-right: -30%;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #8bacd9;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
 }
 
 footer {
